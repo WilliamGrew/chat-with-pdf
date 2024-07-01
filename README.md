@@ -16,8 +16,9 @@ This project highlights how to leverage a ChromaDB vector store in a Langchain p
     You’ll provide the following API keys in the /.env file:
     
     HuggingFace: Use this Answer to get the access token for HuggingFace.
-    OpenAI: Use this Answer to get an API key for GPT.
-7. Start the app `streamlit run app.py`
-8. Load the Pdf you would like to ask questions
-9. Ask questions and get the answers
+
+   OpenAI: Use this Answer to get an API key for GPT.
+8. Start the app `streamlit run app.py`
+9. Load the Pdf you would like to ask questions
+10. Ask questions and get the answers
 
