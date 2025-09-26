@@ -1,4 +1,4 @@
-streamlit==latest
-python-dotenv==latest
-langchain==latest
-PyPDF2==latest
+streamlit
+python-dotenv
+langchain
+PyPDF2
