@@ -1,4 +1,9 @@
 streamlit
 python-dotenv
 langchain
+langchain-community
+langchain-openai
+langchain-huggingface
+chromadb
 PyPDF2
+requests

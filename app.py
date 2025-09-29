@@ -2,11 +2,11 @@
 # Import the Libraries
 import streamlit as st
 from dotenv import load_dotenv
-from langchain.embeddings import OpenAIEmbeddings, HuggingFaceEmbeddings
-from langchain.chat_models import ChatOpenAI
+from langchain_openai import OpenAIEmbeddings, ChatOpenAI
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain.chains import ConversationalRetrievalChain
-from langchain.vectorstores import Chroma
-from langchain.document_loaders import PyPDFLoader
+from langchain_community.vectorstores import Chroma
+from langchain_community.document_loaders import PyPDFLoader
 from PyPDF2 import PdfReader, PdfWriter
 from tempfile import NamedTemporaryFile
 import base64
